@@ -28,6 +28,7 @@ void MERGE(vector<T> &rez, vector<T> &left, vector<T> &right) {
 
     while (i_l < size_l) rez.push_back(left.at(i_l++));
     while (i_r < size_r) rez.push_back(right.at(i_r++));
+    
 }
 
 template<typename T>
