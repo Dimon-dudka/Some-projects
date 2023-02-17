@@ -30,37 +30,6 @@ private:
 public:
     StackList() { pTop = nullptr; }
 
-    StackList(const StackList& SL)
-    {
-        NodeStack<T>* p1; 
-        NodeStack<T>* p2;
-        NodeStack<T>* p3;
-
-        pTop = nullptr;
-        p3 = nullptr;
-
-        p1 = SL.pTop; 
-        while (p1 != nullptr)
-        {
-            p2 = new NodeStack<T>;
-
-            p2->item = p->item;
-            p2->next = nullptr;
-
-            if (pTop == nullptr) 
-            {
-                pTop = p2;
-                p3 = p2;
-            }
-            else
-            {
-                p3->next = p2;
-                p3 = p3->next;
-            }
-            p1 = p1->next;
-        }
-    }
-
     //Method is pushing some element on the top of stack
     //and writing "ok"
     void Push(T item)
