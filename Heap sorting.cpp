@@ -5,7 +5,7 @@
 // Heap-sort
 // Based on my realisation Max-Heap
 // But method Extract was changed
-// it was void and now its returns max element
+// it was void and now it is int and it returns max element
 //--------------------------------------------------------------------------------------------
 
 #include <iostream>
