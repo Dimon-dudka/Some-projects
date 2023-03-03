@@ -6,6 +6,9 @@
 // Solution in dynamic programming
 // We need to become count of operations and temporary values
 // while becoming number N from 1
+//Operations: multiply the number X by 2;
+//            multiply the number X by 3;
+//            add one to the number X.
 //--------------------------------------------------------------------------------------------
 
 #include <iostream>
