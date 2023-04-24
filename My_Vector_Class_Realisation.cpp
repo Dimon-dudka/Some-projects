@@ -201,18 +201,6 @@ public:
 		return *this;
 	}
 
-	/*
-	Vector& operator +(Vector<T>& first, Vector<T>& second) {
-		Vector<T> tmp;
-		for (const auto& w : first) {
-			tmp.push_back(w);
-		}
-		for (const auto& w : second) {
-			tmp.push_back(w);
-		}
-		return tmp;
-	}
-	*/
 };
 
 
